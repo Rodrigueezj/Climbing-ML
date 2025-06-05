@@ -2,7 +2,7 @@
 
 # Coordinates (Y1, Y2, X1, X2)
 HEADER_COORDS = (150, 350, 400, 1200)
-BOARD_COORDS = (400, 2500, 100, 1500)
+BOARD_COORDS = (350, 2300, 100, 1500)
 
 # Base directory
 BASE_IMAGE_DIR = "images"

@@ -6,6 +6,7 @@ import pandas as pd
 
 
 def main():
+
     print("📦 Paso 1: Recorte de encabezados...")
     crop_header(
         input_dir=config.RAW_TEST_DIR,
