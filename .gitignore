@@ -1,0 +1,15 @@
+# Archivos generados
+*.png
+*.jpg
+*.jpeg
+*.csv
+*.log
+
+# Directorios generados
+images/
+venv
+__pycache__/
+*.pyc
+
+# Configuración
+.env
