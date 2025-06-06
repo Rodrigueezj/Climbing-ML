@@ -1,7 +1,7 @@
 # config.py
 
 # Coordinates (Y1, Y2, X1, X2)
-HEADER_COORDS = (150, 350, 400, 1200)
+HEADER_COORDS = (175, 270, 500, 1100)
 BOARD_COORDS = (350, 2300, 100, 1500)
 
 # Base directory
