@@ -13,6 +13,7 @@ RAW_TEST_DIR = f"{BASE_IMAGE_DIR}/raw_test"
 
 # Output directories
 HEADERS_DIR = f"{BASE_IMAGE_DIR}/headers"
+HEADERS_TEST_DIR = f"{BASE_IMAGE_DIR}/headers_test"
 BOARDS_DIR  = f"{BASE_IMAGE_DIR}/boards"
 
 # Metadata CSV file
