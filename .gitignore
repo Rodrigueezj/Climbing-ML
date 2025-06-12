@@ -6,7 +6,7 @@
 *.log
 
 # Directorios generados
-images/
+Processed Data/
 venv
 __pycache__/
 *.pyc
