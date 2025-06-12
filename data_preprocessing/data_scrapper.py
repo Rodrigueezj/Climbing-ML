@@ -1,13 +1,13 @@
 import os
 import time
-import moonboard.config as config
+import config
 
 # Folder where images will be saved
 SAVE_DIR = config.RAW_DIR
 os.makedirs(SAVE_DIR, exist_ok=True)
 
 # Number of captures to perform
-NUM_CAPTURES = 30000
+NUM_CAPTURES = 50000
 
 # Swipe coordinates
 # swipe: from (x1, y1) to (x2, y2)

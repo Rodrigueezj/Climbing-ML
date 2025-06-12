@@ -5,17 +5,15 @@ HEADER_COORDS = (175, 270, 500, 1100)
 BOARD_COORDS = (350, 2300, 100, 1500)
 
 # Base directory
-BASE_IMAGE_DIR = "images"
+BASE_IMAGE_DIR = "data"
 
 # Subfolders
-RAW_DIR3     = f"{BASE_IMAGE_DIR}/raw"
-RAW_DIR2     = f"{BASE_IMAGE_DIR}/raw2"
-RAW_TEST_DIR = f"{BASE_IMAGE_DIR}/raw_test"
+RAW_DIR     = f"{BASE_IMAGE_DIR}/raw"
 
 # Output directories
 HEADERS_DIR = f"{BASE_IMAGE_DIR}/headers"
 HEADERS_TEST_DIR = f"{BASE_IMAGE_DIR}/headers_test"
-BOARDS_DIR  = f"{BASE_IMAGE_DIR}/boards"
+BOARDS_DIR  = f"{BASE_IMAGE_DIR}/moonboards"
 
 # Metadata CSV file
-METADATA_CSV = "routes_metadata.csv"
+METADATA_CSV = "metadata.csv"
