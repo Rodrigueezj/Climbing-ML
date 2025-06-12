@@ -28,7 +28,7 @@ def process_image_ocr(image_path):
 
     # Extraer campos con seguridad frente a OCR incompleto
     name  = lines[0] if len(lines) > 0 else "unknown"
-    grade = lines[2] if len(lines) > 1 else "unknown"
+    grade = lines[2] if len(lines) > 2 else "unknown"
 
     filename = os.path.basename(image_path)
 

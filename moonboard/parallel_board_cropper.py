@@ -42,7 +42,7 @@ def crop_boards(screenshot_dir, metadata_csv, output_dir, coords):
             route_name = row["name"]
 
             # Clean the route name to use as filename
-            safe_name = re.sub(r'\W+', '_', route_name)[:100]
+            safe_name = re.sub(r'\W+', '_', str(route_name))[:100]
             screenshot_path = os.path.join(screenshot_dir, filename)
             output_path = os.path.join(output_dir, f"{safe_name}.png")
 
