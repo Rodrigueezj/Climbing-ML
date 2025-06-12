@@ -8,7 +8,8 @@ BOARD_COORDS = (350, 2300, 100, 1500)
 BASE_IMAGE_DIR = "images"
 
 # Subfolders
-RAW_DIR     = f"{BASE_IMAGE_DIR}/raw"
+RAW_DIR3     = f"{BASE_IMAGE_DIR}/raw"
+RAW_DIR2     = f"{BASE_IMAGE_DIR}/raw2"
 RAW_TEST_DIR = f"{BASE_IMAGE_DIR}/raw_test"
 
 # Output directories
